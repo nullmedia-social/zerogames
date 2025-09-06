@@ -1,0 +1,35 @@
+{
+	me": "shark_game",
+	rsion": "0.9.0",
+	pository": "https://github.com/spencers145/SharkGame",
+	ntributors": [
+		ers145 <smartypantsspencer@gmail.com>",
+		s Berger <toby@tobot.dev> (https://tobot.dev)" 
+	
+	cense": "MIT",
+	pes": "index.d.ts",
+	ripts": {
+		nstall": "npx simple-git-hooks",
+		 "eslint . --fix",
+		: "eslint .",
+		: "eslint . --max-warnings=0",
+		 "npm run scss && npm run scss:big",
+		: "sass ./styles/style.scss:./css/style.min.css --style=compressed",
+		big": "sass ./styles/style.scss:./css/style.css",
+		w": "npm run scss --watch",
+		w:big": "npm run scss:big --watch"
+	
+	vDependencies": {
+		nt/js": "^9.9.1",
+		s/jquery": "^3.5.30",
+		s/lodash": "^4.17.7",
+		s/pako": "^2.0.3",
+		t": "^9.9.1",
+		andard": "^0.11.4",
+		: "^1.78.0",
+		e-git-hooks": "^2.11.1"
+	
+	mple-git-hooks": {
+		ommit": "npm test"
+	
+}
